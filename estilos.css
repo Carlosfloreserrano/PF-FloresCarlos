@@ -2,7 +2,8 @@
 .navbar {
   height: 70px;
   background-color: rgba(22, 22, 23, 0.8);
-  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
 }
 .navbar .nav-link:hover {
   text-shadow: 1px 1px 0 gold;
@@ -294,6 +295,4 @@ h1.titulohotel {
     justify-content: center;
     text-align: center;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
