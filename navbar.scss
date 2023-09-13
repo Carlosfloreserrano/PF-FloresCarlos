@@ -1,0 +1,26 @@
+.navbar {
+	height: 70px;
+	background-color: $background-color_1;
+	backdrop-filter: blur(20px);
+	.nav-link {
+		&:hover {
+			text-shadow: 1px 1px 0 gold;
+		}
+	}
+}
+.img-navbar {
+	height: 50px;
+}
+.nav-link {
+	color: $color_1 !important;
+}
+.logo-span {
+	color: $color_2;
+}
+.navbar-brand {
+	pointer-events: none;
+}
+.navbar-collapse {
+	display: flex;
+	justify-content: end;
+}

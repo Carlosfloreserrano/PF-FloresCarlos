@@ -1,0 +1,26 @@
+footer {
+    background-color: $background-color_3;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    box-sizing: border-box;
+    clear: both;
+    position: relative;
+    p {
+      font-size: 10px;
+    }
+  }
+  .redes {
+    a {
+      color: $color_3;
+    }
+    i {
+      font-size: 40px;
+      vertical-align: middle;
+    }
+  }
