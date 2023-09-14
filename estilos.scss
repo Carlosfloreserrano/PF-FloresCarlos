@@ -3,11 +3,10 @@ $color_2: gold;
 $color_3: black;
 $background-color_1: rgb(22 22 23 / 80%);
 $background-color_2: rgb(22 22 23 / 50%);
-$background-color_3: beige;
+$background-color_3: rgb(22 22 23 / 30%);
 $background-color_4: rgb(51, 122, 183);
 
 @import "navbar";
-@import "body";
 @import "footer";
 
 .jumbotron {
@@ -48,6 +47,11 @@ a.btn {
     text-shadow: 1px 1px 0 gold;
   }
 }
+
+.row {
+   margin-right:0;
+}
+
 .infoAboustus {
   margin-top: 70px;
   padding: 40px;
@@ -79,7 +83,7 @@ a.btn {
   grid-area: fotoaboustus2;
 }
 .fotoderecho3 {
-  background-image: url(Imagenes/receptionists-5975962_1280.jpg);
+  background-image: url(Imagenes/aboustus/receptionists-5975962_1280.jpg);
   grid-area: fotoaboustus3;
 }
 h2.info2 {
@@ -189,7 +193,7 @@ h1.titulohotel {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
-    transition: all 0.8s;
+    transition: all 0.3s;
     &:hover {
       filter: grayscale(0%);
       transform: scale(1.05);
@@ -219,10 +223,10 @@ h1.titulohotel {
     display: none;
   }
 }
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 990px) {
   .containerProducto {
     display: flex;
-    justify-content: center;
     text-align: center;
+	flex-direction: column;
   }
 }
